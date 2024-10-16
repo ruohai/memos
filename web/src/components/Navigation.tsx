@@ -49,12 +49,12 @@ const Navigation = () => {
     title: t("daily-review.title"),
     icon: <Icon.Calendar className="mr-3 w-6 h-auto opacity-70" />,
   };
-  const resourcesNavLink: NavLinkItem = {
+  /*const resourcesNavLink: NavLinkItem = {
     id: "header-resources",
     path: "/resources",
     title: t("common.resources"),
     icon: <Icon.Paperclip className="mr-3 w-6 h-auto opacity-70" />,
-  };
+  };*/
   const inboxNavLink: NavLinkItem = {
     id: "header-inbox",
     path: "/inbox",
